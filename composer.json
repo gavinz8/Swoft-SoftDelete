@@ -1,5 +1,5 @@
 {
-  "name": "gavinz8/Swoft/SoftDelete",
+  "name": "swoft/soft-delete",
   "type": "library",
   "keywords": [
     "swoole",
