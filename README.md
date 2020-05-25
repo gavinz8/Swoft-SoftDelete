@@ -7,7 +7,7 @@ Swoft/SoftDelete component for swoft framework
 - install by composer
 
 ```bash
-composer require gavinz8/Swoft/SoftDelete
+composer require gavinz8/swoft-soft-delete
 ```
 
 ## Config
