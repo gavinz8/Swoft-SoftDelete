@@ -25,10 +25,10 @@ return [
     ]
 ];
 
+```
+
 -- column config the column name what you want mark for delete.
 -- ignore config the table you want not use soft delete.
-
-```
 
 ## How Use
 
@@ -43,9 +43,9 @@ DB:table('user')->where('id', 1)->delete();
 
 ```php
 User::find(1);
-User:where('id', 1)->first();
-User:where('id', 1)->get();
-Db:from('user a u')->join('role as r', u.id, r.user_id)->where('u.id', 1)->get();
+User::where('id', 1)->first();
+User::where('id', 1)->get();
+Db::from('user a u')->join('role as r', u.id, r.user_id)->where('u.id', 1)->get();
 ```
 
 ## LICENSE
